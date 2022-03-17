@@ -1,0 +1,72 @@
+.head {
+    font-size: xx-large;
+    text-align: center;
+    background-color: lightblue;
+    color: darkblue;
+    padding: 10px}
+.body {
+    border-left: 200px solid yellow;
+    background-image: url('soccer-ball.png');
+    background-position: right top;
+    background-repeat: repeat-y;
+    background-size: 50px}
+.menu {
+    width: 180px;
+    float: left;
+    margin-left: -200px;
+    padding: 10px}
+.menu p {
+    font-size: x-large;
+    font-weight: bold}
+.menu ul {
+    list-style: disc;
+    margin-top: 10px}      
+.menu li {
+    font-size: 20px}
+.content {
+    padding: 10px}
+.content h2 {
+    font-size:x-large;
+    font-weight: bolder;
+    text-align: center}
+.content img {
+    float: left;
+    width: 300px;
+    margin-right: 10px}
+.content p {
+    margin-top: 10px}    
+.footer {font-size: xx-large;
+    text-align: center;
+    background-color: lightblue;
+    color: darkblue;
+    padding: 10px;clear:both}
+@media screen and (max-width: 580px) {
+    .body {
+        border-left: none;
+        background-image: none;}
+    .menu {
+        background-color: yellow;
+        width: calc(100% - 20px);
+        float: none;
+        padding: 10px;
+        margin-left: 0px}
+    .menu p {
+        width: 100%;
+        font-size: x-large;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;}
+    .menu li {
+        display: inline-block;
+        margin: 10px}  
+    .menu ul {
+        text-align: center ;
+        list-style: none;
+        width: 100%}
+    .content img {
+        float: none;
+        margin-right: 0px;
+        width: 100%;}
+    .content p {
+        margin-top: 20px}    
+    }
