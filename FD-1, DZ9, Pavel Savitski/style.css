@@ -1,0 +1,41 @@
+body {
+    margin: 20px;
+}
+h2, .textcontent {
+    margin-bottom: 20px;
+}
+.contentname, .rubriccontent, .publicationcontent, .commentcontent {
+    margin-bottom: 10px;
+}
+.form {
+    width: 200px;
+    float: left;
+}
+.nameinput {
+    margin-left: 200px;
+}
+.nameinput input {
+    width: 100%
+}
+.radioform div{
+    width:fit-content;
+    display: inline-block;
+   }
+textarea {
+    width: 100%;
+}
+@media screen and (max-width:640px) {
+   .form {
+       float: none;
+   }
+   .commentcontent .form {
+       float: left;
+   }
+   .nameinput {
+       margin-left: 0px;
+   }
+   .radioform div{
+    width:fit-content;
+    display: block;
+   }
+}
